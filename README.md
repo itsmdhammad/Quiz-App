@@ -1,5 +1,5 @@
 # Quiz-App
-👨‍💻 I have developed a quiz app via HTML, CSS and Javascript. 
+👨‍💻 I have developed a quiz app using HTML, CSS and Javascript.
 
 Some features are:
 
