@@ -1,0 +1,121 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(91, 91, 173);
+}
+
+#start-button{
+    position: relative;
+    background-color: aliceblue;
+    cursor: pointer;
+    border: none;
+    color: rgb(78, 78, 151);
+    font-size: 40px;
+    width: 35%;
+    margin: 18% 32.5%;
+    padding: 2% 2%;
+    box-shadow: 0px 0px 5px 2px rgb(78, 78, 151);
+}
+
+/* Question div setting here*/
+
+.question-div{
+    display: none;
+    height: max-content;
+    background-color: white;
+    width: 40%;
+    box-shadow: 0px 0px 5px 8px rgb(78, 78, 151);
+    margin: 5% 30%;
+    padding: 0.5% 0%;
+    font-size: 25px;
+}
+
+.question-div h3, h4{
+    padding: 1% 2%;
+}
+
+.question-div h3{
+    border-bottom: 3px solid rgb(55, 55, 250);
+}
+
+.question-div h4{
+    width: 90%;
+    background-color: rgb(228, 228, 238);
+    border: 1px solid rgb(107, 107, 228);
+    margin-left: 2%;
+    border-radius: 5px;
+}
+
+.question-div h4:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(107, 107, 228);
+}
+
+.question-div #next{
+    cursor: pointer;
+    padding: 1% 6%;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(107, 107, 228);
+    margin: 1%;
+    border-radius: 3px;
+    margin-left: 76.5%;
+    color:white;
+}
+
+.question-div #resultnext{
+    cursor: pointer;
+    padding: 1% 6%;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(107, 107, 228);
+    margin: 1%;
+    border-radius: 3px;
+    margin-left: 76.5%;
+    color:white;
+}
+
+/* Result div styling from here */
+
+.result-div{
+    display: none;
+    height: max-content;
+    background-color: white;
+    width: 40%;
+    box-shadow: 0px 0px 5px 8px rgb(78, 78, 151);
+    margin: 9% 30%;
+    padding: 0.5% 0%;
+    font-size: 25px;
+}
+
+.result-div h2{
+    width: 90%;
+    text-align: center;
+    color: rgb(107, 107, 228);
+    border:none;
+    font-size: 30px;
+    margin-left: 4%;
+}
+
+.result-div #Restart{
+    cursor: pointer;
+    padding: 1% 6%;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(107, 107, 228);
+    margin: 1%;
+    border-radius: 3px;
+    margin-left: 73%;
+    color: white;
+}
+
+.result-div #Restart:hover{
+    background-color: rgb(75, 75, 223);
+}
+
+#emojie{
+    margin: 1% 0%;
+    font-size: 110px;
+    text-align: center;
+}
